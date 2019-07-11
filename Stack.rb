@@ -209,14 +209,27 @@ puts list.get(2)
 puts list.get(3)
 
 class Stack
+ def initialize()
+  @number = LinkedList.new
+ end
+ 
   def push(number)
     # your code here
-    number.push()
+    @number.add(number)
   end
   
   def pop
     # your code here
+   last_position = @number.length-1
+   last_number = @number.get(last_position)
+   @number.remove(last_position)
+   
+   return last_number
   end
+ 
+ def print_stack()
+  @number.printList()
+ end
 end
 
 stack = Stack.new

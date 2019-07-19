@@ -45,3 +45,30 @@ then fine else parenthesis are not balanced.
 After complete traversal, if there is some starting bracket left in stack then “not balanced”
 Below image is a dry run of the above approach:
 =end
+
+def balanced_brackets?(string)
+    stack = []
+    opening = ['(', '[', '{']
+    closing = [')', ']', '}']
+    
+    string.chars.each do |char|
+      if opening.include?(char)
+        stack.push(char)
+      elsif closing.include?(char)
+      value == stack.pop
+        return false opening.index(value) != closing.index(char)
+      end
+    end
+    
+    stack.empty?
+  end
+
+
+puts balanced_brackets?('(hello)[world]')
+# => true
+
+puts balanced_brackets?('([)]')
+# => false
+
+puts balanced_brackets?('[({}{}{})([])]')
+# => true

@@ -53,16 +53,15 @@ def balanced_brackets?(string)
     
     string.chars.each do |char|
       if opening.include?(char)
-        stack.push(char)
+        stack << char
       elsif closing.include?(char)
-      value == stack.pop
-        return false opening.index(value) != closing.index(char)
+      value = stack.pop
+        return false if opening.index(value) != closing.index(char)
       end
     end
     
     stack.empty?
   end
-
 
 puts balanced_brackets?('(hello)[world]')
 # => true
@@ -72,7 +71,6 @@ puts balanced_brackets?('([)]')
 
 puts balanced_brackets?('[({}{}{})([])]')
 # => true
-
 
 
 ======================

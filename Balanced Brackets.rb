@@ -72,3 +72,29 @@ puts balanced_brackets?('([)]')
 
 puts balanced_brackets?('[({}{}{})([])]')
 # => true
+
+
+
+======================
+def balanced_brackets?(string)
+  # your code here
+  array = Array.new
+  array = string.str('a-z', '').chars
+  
+if array[0] == '}' && array[0] == ']' && array[0]== ')'
+  return false
+else
+  i=0
+
+  while i < array.length
+   if array[i+1] == '[' && array[i+2] == ')'
+   return false
+ elsif array[-1] == '('
+ return false
+ else
+   return true
+  end
+  i+=1
+end
+end
+end

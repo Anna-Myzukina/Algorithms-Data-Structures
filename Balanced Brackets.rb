@@ -45,7 +45,7 @@ then fine else parenthesis are not balanced.
 After complete traversal, if there is some starting bracket left in stack then “not balanced”
 Below image is a dry run of the above approach:
 =end
-
+# ============ solving these solution first variant =============
 def balanced_brackets?(string)
     stack = []
     opening = ['(', '[', '{']
@@ -73,7 +73,7 @@ puts balanced_brackets?('[({}{}{})([])]')
 # => true
 
 
-======================
+# ============ solving these solution second variant =============
 def balanced_brackets?(string)
   # your code here
   array = Array.new
@@ -96,3 +96,41 @@ else
 end
 end
 end
+
+# ============ solving these solution third variant =============
+
+module Parser
+  BRACKET_PAIRS = {
+    ')' => '(',
+    ']' => '[',
+    '}' => '{'
+  }.freeze
+  OPEN_BRACKETS = ['(', '[', '{'].freeze
+  
+  def balanced_brackets?(string)
+    stack = []
+
+    string.split('').each do |char|
+      if OPEN_BRACKETS.include?(char)
+        stack.push(char)
+      elsif BRACKET_PAIRS[char] == stack.last
+        stack.pop
+      else
+        return false
+      end
+    end
+    
+    stack.empty?
+  end
+end
+
+
+
+puts balanced_brackets?('(hello)[world]')
+# => true
+
+puts balanced_brackets?('([)]')
+# => false
+
+puts balanced_brackets?('[({}{}{})([])]')
+# => true

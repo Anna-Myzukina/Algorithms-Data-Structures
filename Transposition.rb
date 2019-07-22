@@ -1,4 +1,8 @@
 =start
+https://www.learneroo.com/modules/95/nodes/503
+https://en.wikipedia.org/wiki/Transpose
+
+
 Instructions from your teacher:
 Transposition
 A Transposition Error is when two letters are swapped, such as in "hte" instead of "the", or "rign" instead of "ring".

@@ -42,3 +42,23 @@ puts transpose('rignadingdiggn!')
 
 puts transpose('gngngnnggnngggnnn')
 # => nnnnnnnnngggggggg
+
+=end
+
+def transpose(string)
+  # your code here
+until !string.include?('gn') do
+  string = string.gsub('gn', 'ng')
+end
+return string
+  
+end
+
+puts transpose('he was searchign on Bign for signign kigns')
+# => he was searching on Bing for singing kings
+
+puts transpose('rignadingdiggn!')
+# => ringadingdingg!
+
+puts transpose('gngngnnggnngggnnn')
+# => nnnnnnnnngggggggg

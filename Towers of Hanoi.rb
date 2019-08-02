@@ -1,4 +1,6 @@
 =begin
+https://www.youtube.com/watch?v=5JyJWdOP8PM
+
 The Towers of Hanoi is a classic puzzle with 3 pegs and multiple disks of different sizes. 
 The goal of the puzzle is to move all the disks from the first peg to the the third peg according to the following rules:
 

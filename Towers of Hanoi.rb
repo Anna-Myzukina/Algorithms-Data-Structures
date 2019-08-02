@@ -28,3 +28,15 @@ You can see an explanation of the 2 cases in the following video:
 
 
 =end
+def move(starting, goal)
+  # your code here
+ 
+  moveTo = (1..3).find {|n| n != starting && n != goal} 
+  "#{starting}->#{moveTo} #{starting}->#{goal} #{moveTo}->#{goal}"
+
+end
+puts move(1, 3)
+# => 1->2 1->3 2->3
+
+puts move(2, 3)
+# => 2->1 2->3 1->3

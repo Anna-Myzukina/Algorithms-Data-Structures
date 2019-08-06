@@ -13,4 +13,7 @@ https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/CompleteTree.html
 Question to more deep understanding binary tree:
 (at the end of page with questions you find answers)
 http://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Questions/reviewQuestion4_1.htm
+
+What is the minimum number of internal nodes in a binary tree with 8 nodes?
+Answer : 4
 =end

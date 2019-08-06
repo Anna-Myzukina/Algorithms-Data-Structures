@@ -9,4 +9,8 @@ https://inst.eecs.berkeley.edu/~cs61bl/r//cur/trees/array-repr.html?topic=lab20.
 
 how to store a binary tree in an array (0 as index of the first element): 
 https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/CompleteTree.html
+
+Question to more deep understanding binary tree:
+(at the end of page with questions you find answers)
+http://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Questions/reviewQuestion4_1.htm
 =end

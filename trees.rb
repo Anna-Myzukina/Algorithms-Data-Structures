@@ -17,3 +17,22 @@ http://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Questions/reviewQuestion4_1.ht
 What is the minimum number of internal nodes in a binary tree with 8 nodes?
 Answer : 4
 =end
+
+def leftmost_nodes_sum(array)
+  # your code here
+  root = 0
+  sum = array[root].to_i
+  
+  for x in root..array.length do
+    index = (2 * root) + 1
+    
+    if index < array.length
+      sum += array[index].to_i
+      root = index
+    end
+  end
+  return sum
+end
+
+puts leftmost_nodes_sum([2, 7, 5, 2, 6, 0, 9])
+# => 11

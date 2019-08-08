@@ -1,4 +1,6 @@
 =begin
+https://www.geeksforgeeks.org/construct-a-binary-tree-from-parent-array-representation/#_=_
+
 https://www.educative.io/edpresso/what-is-tree-traversal?affiliate_id=5082902844932096&utm_source=google&utm_medium=cpc&utm_campaign=platform2&utm_content=ad-1-dynamic&gclid=CjwKCAjw7anqBRALEiwAgvGgm9IgTbaucN-Jsl7ndgjCC-vf9rEw0FxL_ndNoS59IPJt788htvnbJRoCJLwQAvD_BwE
 https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b
 https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%85%D0%BE%D0%B4_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%B0

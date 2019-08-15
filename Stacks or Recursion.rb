@@ -147,3 +147,23 @@ Following is the implementation of above idea.
 Data Structures 101: Binary Search Tree:
 https://www.freecodecamp.org/news/data-structures-101-binary-search-tree-398267b6bff0/
 =end
+
+def tree_height(tree_as_list)
+  # your code here
+  return 0 if tree_as_list.empty?
+
+  $l = tree_as_list.length
+  $p = 0
+  $s = 0
+
+  loop do
+    $s += 2 ** $p
+    break if $s >= $l
+
+    $p += 1
+  end
+
+  $p + 1
+end
+
+

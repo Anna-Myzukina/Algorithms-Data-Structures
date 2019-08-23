@@ -1,3 +1,8 @@
+=begin
+ What is a Binary Search Tree?:  https://www.freecodecamp.org/news/data-structures-101-binary-search-tree-398267b6bff0/
+=end
+
+
 def binary_search_tree(array)
 # your code here
 tree = BinarySeachTree.new

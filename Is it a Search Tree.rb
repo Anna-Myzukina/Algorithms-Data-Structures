@@ -31,6 +31,9 @@ A binary search tree is a binary tree where the nodes are assigned values that f
 1. no duplicate values, each value is unique
 2. the left subtree of a node only contains values less than itself
 3. the right subtree of a node only contain values greater than itself
+
+
+Data structures, trees and Ruby. : https://medium.com/@jessgreb01/data-structures-trees-and-ruby-2959c47ffa26
 =end
 
 def search_tree?(tree)

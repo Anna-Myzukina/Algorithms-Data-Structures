@@ -1,5 +1,10 @@
 =begin
  What is a Binary Search Tree?:  https://www.freecodecamp.org/news/data-structures-101-binary-search-tree-398267b6bff0/
+
+A binary search tree is a binary tree where the nodes are assigned values that follow these rules:
+1. no duplicate values, each value is unique
+2. the left subtree of a node only contains values less than itself
+3. the right subtree of a node only contain values greater than itself
 =end
 
 

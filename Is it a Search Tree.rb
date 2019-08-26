@@ -27,4 +27,73 @@ From the above properties it naturally follows that:
 • Each node (item in the tree) has a distinct key.
 
 https://practice.geeksforgeeks.org/problems/check-for-bst/1
+A binary search tree is a binary tree where the nodes are assigned values that follow these rules:
+1. no duplicate values, each value is unique
+2. the left subtree of a node only contains values less than itself
+3. the right subtree of a node only contain values greater than itself
 =end
+
+def search_tree?(tree)
+  # write your code here
+  
+
+def search_tree?(tree)
+# your code here
+treeNew = BinarySeachTree.new
+tree.each do |value|
+treeNew.insert(value)
+end
+traverse = tree.pre_order(treeNew.root)
+traverse.rstrip
+end
+
+class Node
+attr_reader :data
+attr_accessor :left, :right
+
+def initialize(data=nil)
+@data = data
+left = nil
+right = nil
+end
+
+def insert(key)
+if key <=@data
+@left.nil? ? @left = Node.new(key) : @left.insert(key) 
+elsif key >@data
+@right.nil? ? @right = Node.new(key) : @right.insert(key)
+end
+end
+end
+
+class BinarySeachTree
+attr_accessor :root
+
+def initialize
+@root = nil
+end
+
+def insert(key)
+if @root.nil?
+@root = Node.new(key)
+else
+@root.insert(key)
+end
+end
+
+def pre_order(node)
+if node == nil
+return ''
+end 
+result = "#{node.data} "
+result += pre_order(node.left)
+result += pre_order(node.right)
+end
+end
+
+puts search_tree?([10, 4, 12])
+# => true
+
+puts search_tree?([10, 5, 7])
+# => false
+

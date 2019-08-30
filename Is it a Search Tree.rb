@@ -37,10 +37,6 @@ Data structures, trees and Ruby. : https://medium.com/@jessgreb01/data-structure
 =end
 
 def search_tree?(tree)
-  # write your code here
-  
-
-def search_tree?(tree)
 # your code here
 treeNew = BinarySeachTree.new
 tree.each do |value|

@@ -18,7 +18,14 @@ end
 puts binary_tree_height([2, 7, 5, 2, 6, 0, 9])
 # => 3
 
-
+=begin
+	return 0 if array[index].nil? or array[index] == 0
+      
+       left_child_height = array_to_tree(array, 2*index + 1)  
+       right_child_height = array_to_tree(array, 2*index + 2)  
+       total_height = 1 + [left_child_height, right_child_height].max
+end
+=end
 
 =begin
 Teachers solution

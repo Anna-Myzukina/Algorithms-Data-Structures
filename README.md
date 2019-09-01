@@ -277,7 +277,8 @@ If you look inside our map loop, you will see that we are using puts,
 which always has a nil return value. 
 What this is telling us is that our return value is indeed being 
 changed by map. Let’s look at another example.
- =end
+ Почему ноль? Если вы загляните внутрь нашего цикла map, то увидите, что мы используем puts, которые всегда имеют nil return value. Это говорит нам о том, что наше возвращаемое значение действительно изменяется map. Давайте посмотрим на другой пример.
+ Здесь мы больше не используем puts, а вместо этого неявно возвращаем то, что находится внутри нашего блока - снова показывая, что map даст нам новое возвращаемое значение, основанное на логике внутри нашего блока.
  
      topping = %w{pepperoni mushroom bacon pineapple}
             def pizza(topping)

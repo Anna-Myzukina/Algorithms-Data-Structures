@@ -1,4 +1,7 @@
 =begin
+
+Алгоритмы и структуры данных для начинающих: двоичное дерево поиска:
+https://tproger.ru/translations/binary-search-tree-for-beginners/
  What is a Binary Search Tree?:  https://www.freecodecamp.org/news/data-structures-101-binary-search-tree-398267b6bff0/
 
 A binary search tree is a binary tree where the nodes are assigned values that follow these rules:

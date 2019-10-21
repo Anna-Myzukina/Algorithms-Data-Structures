@@ -1,6 +1,7 @@
 =begin
 Full Merge Sort
-You just merged two arrays together into one sorted array. Can you now use your merge method to completely sort an unsorted array?
+You just merged two arrays together into one sorted array. 
+Can you now use your merge method to completely sort an unsorted array?
 
 Algorithm
 If you just had 2 sorted arrays, you could merge them to solve the problem. You have 2 unsorted halves instead, but Recursion can let you treat them as if they've been sorted. Recursively call mergesort on each half and then merge the results together.

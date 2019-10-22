@@ -1,4 +1,7 @@
 =begin
+https://en.wikipedia.org/wiki/Merge_sort
+https://www.youtube.com/watch?v=JSceec-wEyw
+
 Full Merge Sort
 You just merged two arrays together into one sorted array. 
 Can you now use your merge method to completely sort an unsorted array?

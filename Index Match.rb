@@ -1,5 +1,5 @@
 =begin
-
+Helpful material:
 https://stackoverflow.com/questions/10369563/difference-between-on-and-ologn-which-is-better-and-what-exactly-is-olo
 https://www.coursera.org/learn/algorithms-part1/home/welcome
 https://hackernoon.com/10-free-data-structure-and-algorithm-courses-junior-developers-should-explore-978b72871af5

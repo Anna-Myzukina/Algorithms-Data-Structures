@@ -1,3 +1,11 @@
+=begin
+https://www.geeksforgeeks.org/maximal-disjoint-intervals/
+Maximal Disjoint Intervals
+Given a set of N intervals, the task is to find the maximal set of mutually disjoint intervals. 
+Two intervals [i, j] & [k, l] are said to be disjoint if they do not have any point in common.
+=end
+
+
 def time_scheduler(array)
   # write your code here
   return [] if array.empty?

@@ -1,3 +1,22 @@
+=begin
+https://apidock.com/ruby/Array/flatten
+
+flatten(p1 = v1) public
+Returns a new array that is a one-dimensional flattening of self (recursively).
+
+That is, for every element that is an array, extract its elements into the new array.
+
+The optional level argument determines the level of recursion to flatten.
+
+s = [ 1, 2, 3 ]           #=> [1, 2, 3]
+t = [ 4, 5, 6, [7, 8] ]   #=> [4, 5, 6, [7, 8]]
+a = [ s, t, 9, 10 ]       #=> [[1, 2, 3], [4, 5, 6, [7, 8]], 9, 10]
+a.flatten                 #=> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+a = [ 1, 2, [3, [4, 5] ] ]
+a.flatten(1)              #=> [1, 2, 3, [4, 5]]
+=end
+
+
 def maximum_time_range(arrray)
   # write your code here
   result =[]

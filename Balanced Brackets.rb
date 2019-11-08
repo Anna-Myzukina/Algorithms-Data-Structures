@@ -45,6 +45,21 @@ then fine else parenthesis are not balanced.
 After complete traversal, if there is some starting bracket left in stack then “not balanced”
 Below image is a dry run of the above approach:
 =end
+
+// () - true
+// []{}() - true
+// ({}) - true
+// ((((())))) - true
+// ___________
+// ({)} - false
+// []] - false
+// [[] - false
+
+
+function isMatch( left, right ) {
+ return ( left === '(' && right === ')' || left === '[' && right === ']' || left === '{' && right === '}' )
+}
+
 # ============ solving these solution first variant =============
 def balanced_brackets?(string)
     stack = []

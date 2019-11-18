@@ -1,4 +1,26 @@
 # Algorithms-Data-Structures
+
+
+Befor you start your code you should Understanding problem:
+==============================
+
+
+#### Example: 
+- [ ] write a function which takes two numbers & returns their sum
+
+##### First of all asking yourself next questions:
+* 1.Can I create the problem in my own words?   
+
+       "Implement addition"
+* 2.What are the inputs that go into the problem?
+
+       "It is string or num, or boolean...-int, -floats, -what about string for large number"
+* 3.What are the outputs that should come from the solution to the problem?
+
+       -int? -float? -string?
+* 4.Can the outputs be determined from the inputs?
+* 5.How should I label the important pieses of data that are a part of the problem?
+
 Algorithms &amp; Data Structures Ruby
 
 * [Алгоритмы и Структуры Данных. Урок 3: Большое О (Big O Notation). Сложность алгоритма. Часть 1.](https://www.youtube.com/watch?v=M3ghq2E9tPw)

@@ -1,5 +1,50 @@
 # Algorithms-Data-Structures
 
+#### * Algorithm - it's a process or set of steps to accomplish a sertain task.*
+- [ ] To solve solution we should follow next instruction:
+
+##### 1. Understand the problem:
+* Can I repeat the problem in my own in words?
+* What are the inputs that go into the problem?
+* What are the outputs?
+* Can the outputs be determined from inputs?
+* How should I label the important peaces of data that are a part of the problem?
+
+##### 2. Concrete Examples:
+* Examples helps you to understand the problem better.
+* Examples also provide sanity checks that your eventual solution works 
+- start with simple Examples
+- progress to more complex Examples
+- explore Examples with Empty inputs
+- explore Examples with Invalid inputs
+
+##### 3. Break it down:
+* Write out the steps you need to take this step when you should write pseudocode
+* This forces you to think about the code you'll write before you write it
+- [ ] Forexample we need to write function which takes in a string & returns counts of each character bin the string
+
+              First of all we should think about step:
+              
+              // make object to return at the end
+              // loop ower the string for each character
+              // return object at the end
+              
+              Next step we should write peudocode
+              // 1. make object
+              // 2. loop ower the string
+              //    - if the char is key in the object add 1 to count, count = count + 1
+              //    - if the char is not in object add it & set value = 1 
+              //    - if char is something else (forexample space) don`t do anything
+              // 3. return object at the end
+              
+##### Solve solution
+* Write your code to solve solution
+
+##### Look back and refactor
+* 
+
+
+
 
 Befor you start your code you should Understanding problem:
 ==============================
